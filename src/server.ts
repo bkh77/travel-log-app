@@ -1,7 +1,9 @@
 import express from 'express'
 import dotenv from 'dotenv'
 import travelRoutes from './routes/travel.js'
+import connectDB from './config/db.js'
 dotenv.config()
+connectDB()
 
 const app = express()
 
