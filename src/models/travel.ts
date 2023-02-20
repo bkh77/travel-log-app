@@ -7,7 +7,7 @@ type Review = {
   date: Date
 }
 
-export type TravelType = {
+type TravelType = {
   title: string
   photo: string
   description: string
